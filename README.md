@@ -25,3 +25,9 @@ for more understanding
 
 ![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/ca4e747d-1127-41a8-baac-98b88d256edc)
 
+
+
+here we are following the three stage coding style which is suitable for high complex logic
+
+
+![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/b1cec71e-064d-4ed6-aff1-248a10f1aef9)
