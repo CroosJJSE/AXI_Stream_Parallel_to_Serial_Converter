@@ -32,6 +32,22 @@ here we are following the three stage coding style which is suitable for high co
 
 ![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/b1cec71e-064d-4ed6-aff1-248a10f1aef9)
 
+# NEXT STATE DECODER
+state is a register to store the current state value and state_next is combinational wire. In Next state decorder we calculate the next state using the inputs. we check the par_valid,ser_ready to determine the next state
+
+
+![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/e717c199-3c60-42e6-8d01-455562a93266)
+
+# STATE SEQUENCER
+in this block, in each clock cycle the data in the next_state will be copied to state register.
+
+
+![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/8e85c05e-c1f0-44ab-ac27-c62ff35c4036)
+# OUTPUT DECODER
+after we receive the value of the state, we will execute the action or output which has to be done in that state.
+
+
+![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/87b9a61c-2a31-4d01-bab3-1a2920292e19)
 
 # simulation analysis
 
