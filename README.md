@@ -31,3 +31,16 @@ here we are following the three stage coding style which is suitable for high co
 
 
 ![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/b1cec71e-064d-4ed6-aff1-248a10f1aef9)
+
+
+# simulation analysis
+
+we copy the 8 bit input to the shift register only when par_valid is high.
+
+![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/f55c87a7-1301-4c9d-9fd5-66b4d346a776)
+
+
+
+we are sending data only when is ser_valid is high to avoid conjestion 
+
+![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/8b961b34-aeb6-4ee4-abce-18c9d00454a4)
