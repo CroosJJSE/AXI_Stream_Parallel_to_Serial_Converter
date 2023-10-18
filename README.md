@@ -1,6 +1,22 @@
 # AXI_Stream_Parallel_to_Serial_Converter
 parameterized parallel to serial converter which is used in many modern devices.
 
+# What is AXI?
+AXI (Advanced eXtensible Interface) is a popular and widely-used high-performance communication protocol (Bus architecture) in the field of **digital system design**, especially in the context of designing complex integrated circuits, system-on-chip (SoC) architectures, and FPGAs (Field-Programmable Gate Arrays).
+It has **valid** and **ready** _interfaces._
+- module is receiving the **valid** as input if you're giving data you have to keep the **valid** **high** in the **same** clock of sampling.
+- if valid is low data is a trash
+- module is giving the output **ready** if he is ready to accept.
+- if both valid and ready are high the transaction will happen.
+
+### **Master-Slave Communication:**
+
+AXI operates in a master-slave configuration. Masters are the components that initiate transactions, while slaves respond to these transactions. 
+Transactions can include 
+- reads,
+- writes,
+- and other control signals.
+
 # This is the module, we are going to implement
 
 ![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/56f66ea7-e32d-4247-87b5-8d93718d6d42)
