@@ -62,8 +62,7 @@ in this block, in each clock cycle the data in the next_state will be copied to 
 # OUTPUT DECODER
 after we receive the value of the state, we will execute the action or output which has to be done in that state.
 
-
-![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/87b9a61c-2a31-4d01-bab3-1a2920292e19)
+![image](https://github.com/CroosJJSE/AXI_Stream_Parallel_to_Serial_Converter/assets/141708783/b39ca67a-7d13-4ca2-a8c7-40dfb6dddb64)
 
 # simulation analysis
 
